@@ -4,17 +4,17 @@
 [ext_resource type="Texture2D" uid="uid://c0i1ik45p7rhh" path="res://assets/runner_down.png" id="1_m3p76"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f7b3c"]
-radius = 5.0
 
 [node name="Runner" type="CharacterBody2D"]
 motion_mode = 1
 script = ExtResource("1_f7b3c")
 
 [node name="Skin" type="Sprite2D" parent="."]
-position = Vector2(0, -2.3841858e-07)
-scale = Vector2(0.2578125, 0.24609372)
+unique_name_in_owner = true
+position = Vector2(21.250004, -0.12500162)
+scale = Vector2(0.5898438, 0.24804686)
 texture = ExtResource("1_m3p76")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 9)
+position = Vector2(21, 8)
 shape = SubResource("CircleShape2D_f7b3c")
